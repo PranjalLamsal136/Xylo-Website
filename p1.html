@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XYLO - Long-Sleeved NFL T-Shirt</title>
+    <link rel="shortcut icon" type="x-icon" href="img/logo/logo.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/eb49ab7274.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+     <input type="checkbox" id="cart-toggle">
+    <label for="cart-toggle" class="cart-overlay"></label>
+
+    <div class="cart-sidebar">
+        <div class="cart-sidebar-header">
+            <h2>YOUR CART</h2>
+            <label for="cart-toggle" class="cart-close">✕</label>
+        </div>
+        <div class="cart-sidebar-body">
+            <p class="cart-empty">Your cart is empty.</p>
+        </div>
+        <div class="cart-sidebar-footer">
+            <p class="cart-total">TOTAL: <i class="fa-sharp fa-solid fa-rupee-sign" style="color: rgb(15, 15, 16);"></i>0</p>
+            <button class="cart-checkout-btn">CHECKOUT</button>
+        </div>
+    </div>
+<!--Navbar Section-->
+    <header>
+        <div class="navbar">
+            <nav>
+                <div id="logo">
+                    <a href="#"><img src="img/logo/logo.png"></a>
+                </div>
+                <div class="container primary">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                    <label for="cart-toggle" class="cart">
+                        <i class="fa-solid fa-cart-arrow-down fa-xl" style="color: white;"></i>
+                    </label>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+ <main class="product-detail-page">
+
+    <a href="product.html" class="back-btn2">
+    <i class="fa-solid fa-arrow-left"></i>
+    </a>
+    <div class="product-detail-container">
+
+        <div class="product-detail-image">
+            <img src="img/Xylo_img/product-1.jpg" alt="Long-Sleeved NFL T-Shirt">
+        </div>
+
+        <div class="product-detail-info">
+            <p class="product-detail-tag">NEW</p>
+            <h1 class="product-detail-name">LONG-SLEEVED NFL T-SHIRT</h1>
+            <p class="product-detail-price"><i class="fa-sharp fa-solid fa-rupee-sign" style="color: rgb(15, 15, 16);"></i>2,499</p>
+            <hr class="product-detail-divider">
+
+            <p class="product-detail-label">SELECT SIZE</p>
+            <div class="size-selector">
+                <label class="size-option">
+                    <input type="radio" name="size" value="XS">
+                    <span>XS</span>
+                </label>
+                <label class="size-option">
+                    <input type="radio" name="size" value="S">
+                    <span>S</span>
+                </label>
+                <label class="size-option">
+                    <input type="radio" name="size" value="M" checked>
+                    <span>M</span>
+                </label>
+                <label class="size-option">
+                    <input type="radio" name="size" value="L">
+                    <span>L</span>
+                </label>
+                <label class="size-option">
+                    <input type="radio" name="size" value="XL">
+                    <span>XL</span>
+                </label>
+                <label class="size-option">
+                    <input type="radio" name="size" value="XXL">
+                    <span>XXL</span>
+                </label>
+            </div>
+
+            <button class="add-to-cart-btn">ADD TO CART</button>
+
+            <p class="product-detail-desc">Relaxed fit long-sleeved t-shirt with NFL graphic print. Round neck and long sleeves. Ribbed cuffs and hem for a clean finish.</p>
+
+            <div class="product-accordion">
+                <div class="accordion-item">
+                    <p>PRODUCT MEASUREMENTS <i class="fa-solid fa-plus"></i></p>
+                </div>
+                <div class="accordion-item">
+                    <p>SHIPPING & RETURNS <i class="fa-solid fa-plus"></i></p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</main>
+</body>
+</html>

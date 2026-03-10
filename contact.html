@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XYLO - Contact Us</title>
+    <link rel="shortcut icon" type="x-icon" href="img/logo/logo.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/eb49ab7274.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+     <input type="checkbox" id="cart-toggle">
+    <label for="cart-toggle" class="cart-overlay"></label>
+
+    <div class="cart-sidebar">
+        <div class="cart-sidebar-header">
+            <h2>YOUR CART</h2>
+            <label for="cart-toggle" class="cart-close">✕</label>
+        </div>
+        <div class="cart-sidebar-body">
+            <p class="cart-empty">Your cart is empty.</p>
+        </div>
+        <div class="cart-sidebar-footer">
+            <p class="cart-total">TOTAL: <i class="fa-sharp fa-solid fa-rupee-sign" style="color: rgb(15, 15, 16);"></i>0</p>
+            <button class="cart-checkout-btn">CHECKOUT</button>
+        </div>
+    </div>
+<!--Navbar Section-->
+    <header>
+        <div class="navbar">
+            <nav>
+                <div id="logo">
+                    <a href="#"><img src="img/logo/logo.png"></a>
+                </div>
+                <div class="container primary">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                    <label for="cart-toggle" class="cart">
+                        <i class="fa-solid fa-cart-arrow-down fa-xl" style="color: white;"></i>
+                    </label>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="contact-page">
+        <div class="contact-container">
+            <div class="contact-left">
+                <p class="contact-tag">GET IN TOUCH</p>
+                <h1 class="contact-title">Contact Us</h1>
+                <p class="contact-desc">Have a question about an order, a product or just want to say hello? Fill in the form and we'll get back to you as soon as possible.</p>
+            </div>
+            <div class="contact-right">
+                <form method="post" class="contact-form">
+                    <div class="contact-input-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="contact-input-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="contact-input-group">
+                        <input type="text" placeholder="Subject">
+                    </div>
+                    <div class="contact-input-group">
+                        <textarea placeholder="Your Message" rows="6" required></textarea>
+                    </div>
+                    <input type="submit" value="SEND MESSAGE">
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

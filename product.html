@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XYLO - Products</title>
+    <link rel="shortcut icon" type="x-icon" href="img/logo/logo.jpg">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/eb49ab7274.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+ <input type="checkbox" id="cart-toggle">
+    <label for="cart-toggle" class="cart-overlay"></label>
+
+    <div class="cart-sidebar">
+        <div class="cart-sidebar-header">
+            <h2>YOUR CART</h2>
+            <label for="cart-toggle" class="cart-close">✕</label>
+        </div>
+        <div class="cart-sidebar-body">
+            <p class="cart-empty">Your cart is empty.</p>
+        </div>
+        <div class="cart-sidebar-footer">
+            <p class="cart-total">TOTAL: <i class="fa-sharp fa-solid fa-rupee-sign" style="color: rgb(15, 15, 16);"></i>0</p>
+            <button class="cart-checkout-btn">CHECKOUT</button>
+        </div>
+    </div>
+<!--Navbar Section-->
+    <header>
+        <div class="navbar">
+            <nav>
+                <div id="logo">
+                    <a href="#"><img src="img/logo/logo.png"></a>
+                </div>
+                <div class="container primary">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                    <label for="cart-toggle" class="cart">
+                        <i class="fa-solid fa-cart-arrow-down fa-xl" style="color: white;"></i>
+                    </label>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="pb">
+        <div class="products-page">
+
+            <div class="products-header">
+                <h2>All Products</h2>
+                <div class="sort-wrapper">
+                    <select class="sort-dropdown">
+                        <option value="default">Default Sorting</option>
+                        <option value="new">New</option>
+                        <option value="low-high">Sort by Price: Low to High</option>
+                        <option value="high-low">Sort by Price: High to Low</option>
+                        <option value="rating">Sort by Rating</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="products-grid">
+
+                <div class="col-4">
+                    <a href="p1.html"><img src="img/Xylo_img/product-1.jpg" alt=""></a>
+                    <h3><a href="p1.html">LONG-SLEEVED NFL T-SHIRT</a></h3>
+                    <div class="product-info">
+                        <div class="price"><i class="fa-sharp fa-solid fa-rupee-sign" style="color: rgb(15, 15, 16);"></i><span>2,499</span></div>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><span>(32)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <a href=""><img src="img/Xylo_img/p5.jpg" alt=""></a>
+                    <h3><a href="">BASIC HEAVYWEIGHT T-SHIRT</a></h3>
+                    <div class="product-info">
+                        <div class="price"><i class="fa-sharp fa-solid fa-rupee-sign" style="color: rgb(15, 15, 16);"></i><span>2,199</span></div>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><span>(28)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <a href=""><img src="img/Xylo_img/p6.jpg" alt=""></a>
+                    <h3><a href="">TEXTURED PRINT T-SHIRT</a></h3>
+                    <div class="product-info">
+                        <div class="price"><i class="fa-sharp fa-solid fa-rupee-sign" style="color: rgb(15, 15, 16);"></i><span>2,799</span></div>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span>(54)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <a href=""><img src="img/Xylo_img/p7.jpg" alt=""></a>
+                    <h3><a href="">TEXTURED HENLEY SHIRT</a></h3>
+                    <div class="product-info">
+                        <div class="price"><i class="fa-sharp fa-solid fa-rupee-sign" style="color: rgb(15, 15, 16);"></i><span>3,499</span></div>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><span>(41)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <a href=""><img src="img/Xylo_img/p8.jpg" alt=""></a>
+                    <h3><a href="">COLORBLOCK T-SHIRT</a></h3>
+                    <div class="product-info">
+                        <div class="price"><i class="fa-sharp fa-solid fa-rupee-sign" style="color: rgb(15, 15, 16);"></i><span>3,999</span></div>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span>(63)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <a href="p9.html"><img src="img/Xylo_img/p9.jpg" alt=""></a>
+                    <h3><a href="">REGULAR FIT STRIPED SHIRT</a></h3>
+                    <div class="product-info">
+                        <div class="price"><i class="fa-sharp fa-solid fa-rupee-sign" style="color: rgb(15, 15, 16);"></i><span>2,299</span></div>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><span>(38)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <a href=""><img src="img/Xylo_img/p10.jpg" alt=""></a>
+                    <h3><a href="">EMBROIDERED FLANNEL SHIRT</a></h3>
+                    <div class="product-info">
+                        <div class="price"><i class="fa-sharp fa-solid fa-rupee-sign" style="color: rgb(15, 15, 16);"></i><span>3,199</span></div>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><span>(52)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <a href=""><img src="img/Xylo_img/p11.jpg" alt=""></a>
+                    <h3><a href="">LINEN - COTTON SHIRT</a></h3>
+                    <div class="product-info">
+                        <div class="price"><i class="fa-sharp fa-solid fa-rupee-sign" style="color: rgb(15, 15, 16);"></i><span>3,899</span></div>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span>(47)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <a href="P14.html"><img src="img/Xylo_img/p14.jpg" alt=""></a>
+                    <h3><a href="">FLORAL PRINT SHIRT</a></h3>
+                    <div class="product-info">
+                        <div class="price"><i class="fa-sharp fa-solid fa-rupee-sign" style="color: rgb(15, 15, 16);"></i><span>1,999</span></div>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><span>(37)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <a href=""><img src="img/Xylo_img/p15.jpg" alt=""></a>
+                    <h3><a href="">CONTRAST STRIPED SHIRT</a></h3>
+                    <div class="product-info">
+                        <div class="price"><i class="fa-sharp fa-solid fa-rupee-sign" style="color: rgb(15, 15, 16);"></i><span>2,499</span></div>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span>(58)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <a href=""><img src="img/Xylo_img/p16.jpg" alt=""></a>
+                    <h3><a href="">EMBROIDERED FLOWY SHIRT</a></h3>
+                    <div class="product-info">
+                        <div class="price"><i class="fa-sharp fa-solid fa-rupee-sign" style="color: rgb(15, 15, 16);"></i><span>3,199</span></div>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span>(29)</span>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="col-4">
+                    <a href=""><img src="img/Xylo_img/p29.jpg" alt=""></a>
+                    <h3><a href="">BASIC HOODIE SWEATSHIRT</a></h3>
+                    <div class="product-info">
+                        <div class="price"><i class="fa-sharp fa-solid fa-rupee-sign" style="color: rgb(15, 15, 16);"></i><span>3,299</span></div>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><span>(82)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <a href=""><img src="img/Xylo_img/p30.jpg" alt=""></a>
+                    <h3><a href="">WASHED WAFFLE WEAVE HOODIE</a></h3>
+                    <div class="product-info">
+                        <div class="price"><i class="fa-sharp fa-solid fa-rupee-sign" style="color: rgb(15, 15, 16);"></i><span>3,999</span></div>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><span>(74)</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-4">
+                    <a href=""><img src="img/Xylo_img/p32.jpg" alt=""></a>
+                    <h3><a href="">HOODED CARDIGAN</a></h3>
+                    <div class="product-info">
+                        <div class="price"><i class="fa-sharp fa-solid fa-rupee-sign" style="color: rgb(15, 15, 16);"></i><span>5,799</span></div>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span>(93)</span>
+                        </div>
+                    </div>
+                </div>
+
+<div class="col-4">
+    <a href=""><img src="img/Xylo_img/p33.jpg" alt=""></a>
+    <h3><a href="">EMBROIDERED BOMBER JACKET</a></h3>
+    <div class="product-info">
+        <div class="price">
+            <i class="fa-sharp fa-solid fa-rupee-sign" style="color: rgb(15, 15, 16);"></i>
+            <span>3,499</span>
+        </div>
+        <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i><span>(47)</span>
+        </div>
+    </div>
+</div>
+
+<div class="col-4">
+    <a href=""><img src="img/Xylo_img/p35.jpg" alt=""></a>
+    <h3><a href="">CROPPEDFIREMAN CLASP JACKET</a></h3>
+    <div class="product-info">
+        <div class="price">
+            <i class="fa-sharp fa-solid fa-rupee-sign" style="color: rgb(15, 15, 16);"></i>
+            <span>6,499</span>
+        </div>
+        <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><span>(89)</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="col-4">
+    <a href=""><img src="img/Xylo_img/p36.jpg" alt=""></a>
+    <h3><a href=""></a>WASHED LEATHER JACKET</h3>
+    <div class="product-info">
+        <div class="price">
+            <i class="fa-sharp fa-solid fa-rupee-sign" style="color: rgb(15, 15, 16);"></i>
+            <span>7,999</span>
+        </div>
+        <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><span>(54)</span>
+        </div>
+    </div>
+</div>
+
+
+                <div class="col-4">
+                    <a href=""><img class="bottom" src="img/Xylo_img/p17.jpg" alt=""></a>
+                    <h3><a href="">COTTON - LINEN PANTS</a></h3>
+                    <div class="product-info">
+                        <div class="price"><i class="fa-sharp fa-solid fa-rupee-sign" style="color: rgb(15, 15, 16);"></i><span>2,599</span></div>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i><span>(33)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <a href=""><img class="bottom" src="img/Xylo_img/p18.jpg" alt=""></a>
+                    <h3><a href="">RELAXED FIT JOGGING PANTS</a></h3>
+                    <div class="product-info">
+                        <div class="price"><i class="fa-sharp fa-solid fa-rupee-sign" style="color: rgb(15, 15, 16);"></i><span>3,299</span></div>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>  <span>(57)</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-4">
+                    <a href=""><img class="bottom" src="img/Xylo_img/p20.jpg" alt=""></a>
+                    <h3><a href="">LEATHER BALLOON FIT PANTS</a></h3>
+                    <div class="product-info">
+                        <div class="price"><i class="fa-sharp fa-solid fa-rupee-sign" style="color: rgb(15, 15, 16);"></i><span>4,899</span></div>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i><span>(48)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <a href=""><img class="bottom" src="img/Xylo_img/p21.jpg" alt=""></a>
+                    <h3><a href="">RIPPED BAGGY FIT JEANS</a></h3>
+                    <div class="product-info">
+                        <div class="price"><i class="fa-sharp fa-solid fa-rupee-sign" style="color: rgb(15, 15, 16);"></i><span>3,199</span></div>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i><span>(71)</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-4">
+                    <a href=""><img class="bottom" src="img/Xylo_img/p24.jpg" alt=""></a>
+                    <h3><a href="">REGULAR FIT JEANS</a></h3>
+                    <div class="product-info">
+                        <div class="price"><i class="fa-sharp fa-solid fa-rupee-sign" style="color: rgb(15, 15, 16);"></i><span>5,899</span></div>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i><span>(88)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <a href=""><img class="bottom" src="img/Xylo_img/p25.jpg" alt=""></a>
+                    <h3><a href="">BAGGY FIT DENIM SHORTS</a></h3>
+                    <div class="product-info">
+                        <div class="price"><i class="fa-sharp fa-solid fa-rupee-sign" style="color: rgb(15, 15, 16);"></i><span>2,099</span></div>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i><span>(36)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <a href=""><img class="bottom" src="img/Xylo_img/p28.jpg" alt=""></a>
+                    <h3><a href="">RELAXED FIT SHORTS</a></h3>
+                    <div class="product-info">
+                        <div class="price"><i class="fa-sharp fa-solid fa-rupee-sign" style="color: rgb(15, 15, 16);"></i><span>2,999</span></div>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i><span>(57)</span>
+                        </div>
+                    </div>
+                </div>
+
+               
+            </div>
+        </div>
+
+        <div class="pagination">
+    <a href="#" class="page-btn active">1</a>
+    <a href="#" class="page-btn">2</a>
+    <a href="#" class="page-btn">3</a>
+    <a href="#" class="page-btn">4</a>
+    <a href="#" class="page-btn">5</a>
+    <a href="#" class="page-btn">...</a>
+</div>
+
+    </main>
+  
+<footer class="footer-new">
+    <div class="footer-new-top">
+        <div class="footer-logo-section">
+            <img src="img/logo/output-onlinepngtools.png" alt="XYLO Logo">
+            <p>Minimal. Modern. Timeless.</p>
+        </div>
+        <div class="footer-links-section">
+            <div class="footer-col-new">
+                <h4>Category</h4>
+                <a href="product.html">T-Shirts</a>
+                <a href="product.html">Hoodies</a>
+                <a href="product.html">Denims</a>
+                <a href="product.html">Jackets</a>
+            </div>
+            <div class="footer-col-new">
+                <h4>Pages</h4>
+                <a href="index.html">Home</a>
+                <a href="product.html">Products</a>
+                <a href="contact.html">Contact</a>
+                <a href="account.html">Account</a>
+            </div>
+            <div class="footer-col-new">
+                <h4>Legals</h4>
+                <a href="Privacy-cookies.html">Privacy Policy</a>
+                <a href="terms-conditions.html">Terms of Service</a>
+                <a href="accessability.html">Accessibility</a>
+            </div>
+          <div class="footer-col-new">
+    <h4>Socials</h4>
+    <ul class="footer-socials">
+        <li><a href=""><i class="fab fa-instagram"></i> Instagram</a></li>
+        <li><a href=""><i class="fab fa-facebook"></i> Facebook</a></li>
+        <li><a href=""><i class="fab fa-twitter"></i> Twitter</a></li>
+    </ul>
+</div>
+        </div>
+    </div>
+    <div class="footer-new-bottom">
+        <p>+977 9869696969</p>
+        <hr>
+        <p>&copy; 2026 XYLO. All rights reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
